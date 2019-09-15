@@ -7,8 +7,17 @@
   (4)模型训练为空，文本标注与训练语音不标准，需要重新标注
 2.实验条件以及结果
   (1)
+      condition:
       batch_size = 2
       label = re.split('(\s)',label)
       epochs = 100
       if (batch + 1) % 2 == 0:
       
+      result:
+      Label err rate:  0.06923077
+      file 0
+      Original: Economy sets the tune whereas financial developments interact with economy
+      Decoded:  Economy sets the tune financial developments interact with economy would would would would would would would would would would                   would would would would would would 
+      file 1
+      Original: The latest statistics from the National Bureau of Statistics shows that summer grain output of 2000 will decrease by 11 million                 tons from that of 1999
+      Decoded:  The latest statistics from the National Bureau of Statistics shows that summer output of 2000 will decrease by 11 million tons                   from that of 1999 
