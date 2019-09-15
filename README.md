@@ -17,7 +17,7 @@
       Label err rate:  0.06923077
       file 0
       Original: Economy sets the tune whereas financial developments interact with economy
-      Decoded:  Economy sets the tune financial developments interact with economy would would would would would would would would would would                   would would would would would would 
+      Decoded:  Economy sets the tune financial developments interact with economy would would would would would would would would would                    would would would would would would would 
       file 1
-      Original: The latest statistics from the National Bureau of Statistics shows that summer grain output of 2000 will decrease by 11 million                 tons from that of 1999
-      Decoded:  The latest statistics from the National Bureau of Statistics shows that summer output of 2000 will decrease by 11 million tons                   from that of 1999 
+      Original: The latest statistics from the National Bureau of Statistics shows that summer grain output of 2000 will decrease by 11                   million tons from that of 1999
+      Decoded:  The latest statistics from the National Bureau of Statistics shows that summer output of 2000 will decrease by 11 million                 tons from that of 1999 
