@@ -6,7 +6,7 @@
   (3)label为空，有待查找
   (4)模型训练为空，文本标注与训练语音不标准，需要重新标注
 2.实验条件以及结果
-  (1)
+  (1) module:saver_01 dataset:train
       condition:
       batch_size = 2
       label = re.split('(\s)',label)
