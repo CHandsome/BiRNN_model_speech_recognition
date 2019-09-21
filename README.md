@@ -21,3 +21,9 @@
       file 1
       Original: The latest statistics from the National Bureau of Statistics shows that summer grain output of 2000 will decrease by 11                   million tons from that of 1999
       Decoded:  The latest statistics from the National Bureau of Statistics shows that summer output of 2000 will decrease by 11 million                 tons from that of 1999 
+  (2) module:saver_02 dataset:data trn 增加到50条数据进行试验
+       condition:
+        batch_size = 2
+        label = re.split('(\s)',label)
+        epochs = 100
+        if (batch + 1) % 2 == 0:
